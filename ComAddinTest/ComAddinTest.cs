@@ -56,8 +56,8 @@ namespace ComAddinTest
 
         public void OnDisconnection(ext_DisconnectMode RemoveMode, ref Array custom)
         {
-            //m_Window.Dispose();
-            //m_IdeForm.Dispose();
+            m_Window.Dispose();
+            m_IdeForm.Dispose();
         }
 
         public void OnStartupComplete(ref Array custom)
